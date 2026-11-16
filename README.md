@@ -1,6 +1,6 @@
 # Functional Transaction Analyzer (Haskell)
 
-A small Haskell program that stores spending transactions, filters them, totals them by category, and prints the results as aligned text tables. Built for **COMP 481 – Mini-Project 1** at the University of the Fraser Valley.
+A small Haskell program that stores spending transactions, filters them, totals them by category, and prints the results as aligned text tables. Built for COMP 481 – Mini-Project 1 at the University of the Fraser Valley.
 
 ## What it does
 
@@ -111,7 +111,3 @@ Some tests compare against the original three sample records, so `Tests.hs` will
 - `Maybe` with `mapMaybe`
 - `where` and `let` bindings
 - List comprehensions and guards
-
-## Team
-
-Built by Arundeep Singh (team leader), Juskaran Dhanjal, Pushpdeep Sandhu and Inder Nijjar.
