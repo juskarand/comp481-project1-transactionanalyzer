@@ -1,4 +1,12 @@
-module TransactionAnalyzer where
+module TransactionAnalyzer
+  ( Transaction (..)
+  , sampleTransactions
+  , filterByCategory
+  , filterByMinAmount
+  , totalByCategory
+  , formatTransactions
+  , formatCategoryTotals
+  ) where
 
 import Data.List (groupBy, intercalate, sortOn)
 import Data.Maybe (mapMaybe)
